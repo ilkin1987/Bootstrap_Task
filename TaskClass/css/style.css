@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+h5{
+    color: #96ae00;
+}
+h2{
+    color: #2d2a6e;
+}
+.welcome-all{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.welcome-all img{
+    width: 100%;
+}
+.welcome-all .welcome-text{
+    text-align: center;
+    padding-top: 6rem;
+}
+.welcome-all .welcome-text h5{
+    padding: 1rem;
+    color: #96ae00;
+}
+.welcome-all .welcome-text h1{
+    padding: 1rem;
+    font-size: 50px;
+    color: #2d2a6e;
+}
+.welcome-all .welcome-text a{
+    border: 1px solid ;
+    border-radius: 30px;
+    background-color: rgb(150, 174, 0);
+    color: #fff;
+    font-size: 14px;
+    padding: 1rem 4rem;
+    line-height: 10rem; 
+    font-weight: bold;
+
+}
+
+.welcome-text a:hover{
+    background-color: #92a326;
+    transition: 0.2s;
+}
+.product{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.box{
+    width: 30%;
+  
+}
+.box img{
+    width: 100%;
+    
+}
+.box .bottom{
+  text-align: center;
+}
+.one:hover{
+transform: scale(1.2);
+transition: 1.3s;
+}
+.box h5{
+    padding: 2rem;
+}
+/*.card:hover{
+transition: 0.5s;
+transform: scale(1.2);
+overflow: hidden;
+
+}
+.card{
+    margin-right: 20px;
+}
